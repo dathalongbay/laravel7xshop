@@ -5,6 +5,7 @@
 ![Screenshot](delete-symlink.png)
 ### 4 - chạy command bên dưới để tạo lại storage link 
 ` php artisan storage:link `
+![Screenshot](doc/command-symlink.jpg)
 ### 5 - chạy command để tạo ra 1 admin mới với password do bạn tự chọn
 ### 6 - run : php artisan serve --port=8001 
 
