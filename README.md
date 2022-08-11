@@ -10,7 +10,13 @@ update config cache = câu lệnh bên dưới như hình ảnh sau
 ` php artisan storage:link `
 ![Screenshot](doc/command-symlink.jpg)
 ### 5 - chạy command để tạo ra 1 admin mới với password do bạn tự chọn
-` php artisan make:admin-account {name} {email} {password} `
+```
+mở source code trong phpstorm và truy cập vào folder app/Console và tạo 1 folder mới có tên là "Commands"
+sau đó mở đường dẫn https://github.com/dathalongbay/laravel7xshop/tree/master/doc và copy file 
+MakeAdminAccount.php vào đường dẫn app/Console/Commands trong IDE Phpstorm 
+Tiếp tục chạy lệnh sau trong terminal để tạo 1 tài khoản mới 
+> php artisan make:admin-account {name} {email} {password} 
+```
 ![Screenshot](doc/make-admin.jpg)
 ### 6 - run : php artisan serve --port=8001 
 ### 7 - URL admin : http://127.0.0.1:8001/backend/admin-login
